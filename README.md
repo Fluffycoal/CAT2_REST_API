@@ -14,7 +14,7 @@ Run the following command to install FastAPI and Uvicorn:
 'pip install fastapi uvicorn'
 
 ### Running the API Server
-'uvicorn main:app --reload'
+'python -m uvicorn main:app --reload'
 follow the link: 'http://127.0.0.1:8000'
 
 ### Using client Script
